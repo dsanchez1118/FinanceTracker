@@ -26,6 +26,7 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     implementation("com.plaid:plaid-java:21.0.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("org.springframework.boot:spring-boot-starter-security")
 }
 
 tasks.withType<Test> {
